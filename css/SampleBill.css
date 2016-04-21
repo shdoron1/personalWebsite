@@ -1,0 +1,17 @@
+/*
+ * Base structure
+ */
+#samplebill {
+    border: 1px solid black;
+    width: 75%;
+}
+
+#maintranslation {
+    height: 50%;
+    width: 75%;
+    font-size: 24px;
+}
+
+#interaction{
+    
+}

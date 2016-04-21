@@ -1,0 +1,271 @@
+/* Main CSS File */
+
+
+/* nav */
+a {
+  color: #100719;
+}
+.navbar-default .navbar-brand {
+    color: #000000;
+}
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 20px;
+  margin: 0;
+}
+
+/* Header */
+h1 {
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 56px;
+  line-height: 26.4px;
+  color: #100719;
+}
+
+img  {
+  display:block;
+  margin:auto;
+}
+
+
+/*
+ * Main content
+ */
+
+
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Bills
+ */
+
+
+#bill-container {
+    width: 75%;
+    margin-top: 10px;
+    padding-top: 5px;
+    background-color: #0D47A1;
+}
+
+.nameContainer  {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.PoliticianNames  {
+  color: rgba(234,244,249,0.7);
+}
+
+.legImage {
+  padding-top: 20px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.maintranslation {
+    color: ghostwhite;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #0D47A1;
+    color: ghostwhite;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.votes  {
+  padding-left: 16px; 
+}
+
+.bill  {
+  border-bottom: thin solid rgba(216, 211, 211, .5);
+}
+
+
+
+
+
+/* Translations */
+
+.pane  {
+  max-height: 400px;
+  overflow-y: scroll;
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+
+.row .col-md-3 div a  {    /*translatorName*/
+  color: ghostwhite;
+  font-size: 75%;
+  text-align: center;
+  padding-top: 5px;
+  line-height: 0%;
+  }
+
+h4  {                    /*Translation Title*/
+  color: ghostwhite;
+  margin-top: 5px;
+
+}
+
+/* So bill translations only appear when clicked on */
+.translations {
+  display:none;
+}
+
+/* Translations as speech bubbles */
+
+.triangle-border {
+  position: relative;
+  padding: 15px;
+  margin: 1em 0 3em;
+  border: 5px solid #e3e3e3;
+  color: #333;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  max-width: 500px
+}
+
+.triangle-border:before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 40px;
+  border-width: 20px 20px 0;
+  border-style: solid;
+  border-color: #e3e3e3 transparent;
+  display: block;
+  width: 0;
+}
+
+.triangle-border:after {
+  content: "";
+  position: absolute;
+  bottom: -13px;
+  left: 47px;
+  border-width: 13px 13px 0;
+  border-style: solid;
+  border-color: #0D47A1 transparent;
+  display: block;
+  width: 0;
+}
+
+.triangle-border.left:before {
+  top: 10px;
+  bottom: auto;
+  left: -30px;
+  border-width: 15px 30px 15px 0;
+  border-color: transparent #e3e3e3;
+  }
+
+.triangle-border.left:after {
+  top: 16px;
+  bottom: auto;
+  left: -21px;
+  border-width: 9px 21px 9px 0;
+  border-color: transparent #0D47A1;
+}
+
+.triangle-border.right:before {
+  top: 10px;
+  bottom: auto;
+  left: auto;
+  right: -30px;
+  border-width: 15px 0 15px 30px;
+  border-color: transparent #e3e3e3;
+  }
+
+.triangle-border.right:after {
+  top: 16px;
+  bottom: auto;
+  left: auto;
+  right: -21px;
+  border-width: 9px 0 9px 21px;
+  border-color: transparent #0D47A1;
+}
+
+
+/* Interests dropdown */
+
+.checkbox  {
+    padding-left: 10px;
+}
+
+
+/* Custom page footer */
+
+footer {
+  padding-bottom: 5px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+p {
+    color: ghostwhite;
+}
+.jumbotron {
+    margin:auto;
+    height: 50%;
+    width:75%;
+    background-color: #4CAF50;
+    color: #C55656;
+    padding-left: 10px;
+}
+a p {
+    text-decoration: underline;
+    color: #100719;
+}
+.jumbotron p {
+    text-align: justify;
+}
+
+/* Login_Page - Outside */
+#Login {
+    height: 50%;
+    width:50%;
+    border: 1px solid black;
+    background-color: #4CAF50;
+    padding: 10px;
+}
+
+.input-group{
+    width: 50%;
+}
+
+.row .col-md-9  {   /*translationTextBubble*/
+  margin-bottom: 12px;
+  }      
+
+.row .col-md-9 p  {
+  margin-bottom: 0px;
+}
+
+.col-md-9 div .btn  {
+margin-top: 5px;
+}
+
+.col-md-2  {
+  padding-right: 5px;
+}
+
